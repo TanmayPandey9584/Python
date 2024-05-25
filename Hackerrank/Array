@@ -1,0 +1,33 @@
+'''
+def reverseArray(a):
+    # Write your code here
+    print(' '.join(map(str, a[::-1]))) #prints just the elements of a list
+n = int(input().strip())
+arr = [int(arr_temp) for arr_temp in input().strip().split(' ')]   
+reverseArray(arr)
+'''
+'''
+def swap_case(s):
+    x=s.find(" ")
+    if(x!=-1):
+        w=s.split()
+        w=" ".join(w)
+        return (w.swapcase())
+        
+    else:
+        return (s.swapcase())
+    
+    
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+'''
+
+import sys
+data=[56]
+a=len(data)
+b=sys.getsizeof(data)
+print('length:{0:3d}; Size in bytes:{1:4d}'.format(a,b))
+data.append(None)

@@ -1,0 +1,1 @@
+print(eval(input("enter the calcuation to be performed")))

@@ -1,0 +1,14 @@
+def count_substring(string, sub_string):
+    l1=[string]
+    l2=[sub_string]
+    a=0
+    for i in range(0, count(l1)+1):
+        for j in range(0,count(l2)+1):
+            a+=1
+
+
+        
+         
+    return a
+
+count_substring('abcdcdc', 'cdc')
